@@ -1,0 +1,71 @@
+body {
+    background-image: url("../img/dark_embroidery.png");
+    background-color: #444;
+    
+}
+img {
+    width: 30%;
+    height: auto;
+    
+}
+header {
+    display: flex;
+    margin: 0px auto;
+    margin-top: 15px;
+    text-align: center;
+    color: antiquewhite;
+    width: 280px;
+    height: 100px;
+}
+.weekNumContain {
+    margin: 5px;
+    width: 150px;
+}
+.weekNum {
+    font-size: 3em;
+}
+.leftArrow {
+    float: left;
+    font-size: 5em;
+    opacity: .1;
+}
+.rightArrow {
+    float: right;
+    font-size: 5em;
+    opacity: .1;
+}
+
+container {
+ display: block;
+ background-color: lightslategrey;
+ width: 80%;
+ max-width: 1100px;
+ margin: 0 auto;
+ margin-top: 10px;
+ box-shadow: 1px 15px 120px -10px #000;
+ padding: 50px;
+ border-radius: 5px;
+ font-size: 1.3em;
+}
+h1 {
+    margin: 7px;
+}
+
+a {
+    color: #002076;
+    text-decoration: none;
+}
+
+a:hover {
+     color:#001020; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #666;
+    margin: 1em 0;
+    padding: 0; 
+}
